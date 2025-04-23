@@ -129,10 +129,10 @@ github.com/cpuguy83/go-md2man/v2 v2.0.4/go.mod h1:tgQtvFlXSQOSOSIRvRPT7W67SCa46t
 github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ33E=
 github.com/creack/pty v1.1.18 h1:n56/Zwd5o6whRC5PMGretI4IdRLlmBXYNjScPaBgsbY=
 github.com/creack/pty v1.1.18/go.mod h1:MOBLtS5ELjhRRrroQr9kyvTxUAFNvYEK993ew/Vr4O4=
-github.com/cwon2/go-sockaddr v0.0.1-rfctest h1:qjbYptxR8broYYG57F/evczDbx5u3HfZonx79fCEVbE=
-github.com/cwon2/go-sockaddr v0.0.1-rfctest/go.mod h1:7Xibr9yA9JjQq1JpNB2Vw7kxv8xerXegt+ozgdvDeDU=
-github.com/cwon2/memberlist v0.0.1-rfctest h1:9ELD1vkDFv2v7nBz2RF2stMluHCQbHksCTQDUc21br4=
-github.com/cwon2/memberlist v0.0.1-rfctest/go.mod h1:ft48BC40QjhgQfG6xV+07URs5osIjvZfh73bP6pmV90=
+github.com/cwon2/go-sockaddr v0.0.2-rfctest h1:mq+/U6ZTlXfGkqxvpnKz9Basiq9y6M+ZSQATkYcmdP4=
+github.com/cwon2/go-sockaddr v0.0.2-rfctest/go.mod h1:7Xibr9yA9JjQq1JpNB2Vw7kxv8xerXegt+ozgdvDeDU=
+github.com/cwon2/memberlist v0.0.2-rfctest h1:YOCDHdKyiB4HUV++fwgz55nCI5HBZfi7fQ0QFcaAMNQ=
+github.com/cwon2/memberlist v0.0.2-rfctest/go.mod h1:yQYc12H3qcLjLvwND6BzEUPhXspMQ9XIofHEdX7N8J8=
 github.com/danaugrs/go-tsne v0.0.0-20200708172100-6b7d1d577fd3 h1:4V3w6LD+GOVbkF0jtjAzMRczS18+Gx0/nSZ3Pub3h00=
 github.com/danaugrs/go-tsne v0.0.0-20200708172100-6b7d1d577fd3/go.mod h1:tcVxJUGCaPp/YynlqJTfJtGc/LF9vn4WUZSSmaGu3dA=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
