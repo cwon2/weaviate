@@ -596,7 +596,7 @@
       "type": "object"
     },
     "Schema": {
-      "description": "Definitions of semantic schemas (also see: https://github.com/weaviate/weaviate-semantic-schemas).",
+      "description": "Definitions of semantic schemas (also see: https://github.com/cwon2/weaviate-semantic-schemas).",
       "properties": {
         "classes": {
           "description": "Semantic classes that are available.",
@@ -2128,7 +2128,7 @@
     }
   },
   "externalDocs": {
-    "url": "https://github.com/weaviate/weaviate"
+    "url": "https://github.com/cwon2/weaviate"
   },
   "info": {
     "contact": {

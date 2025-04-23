@@ -16,7 +16,7 @@ builds:
     ldflags:
       - -w
       - -extldflags "-static"
-      - -X github.com/weaviate/weaviate/usecases/config.GitHash={{ .Env.GIT_HASH }}
+      - -X github.com/cwon2/weaviate/usecases/config.GitHash={{ .Env.GIT_HASH }}
 
 # create a "fat" binary for MacOS
 universal_binaries:

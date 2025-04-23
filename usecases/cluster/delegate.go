@@ -22,7 +22,7 @@ import (
 
 	enterrors "github.com/weaviate/weaviate/entities/errors"
 
-	"github.com/hashicorp/memberlist"
+	"github.com/cwon2/memberlist"
 	"github.com/sirupsen/logrus"
 )
 

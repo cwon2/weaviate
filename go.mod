@@ -1,13 +1,15 @@
 module github.com/weaviate/weaviate
 
-replace github.com/hashicorp/go-sockaddr => github.com/cwon2/go-sockaddr v0.0.2-rfctest
+// replace github.com/hashicorp/go-sockaddr => github.com/cwon2/go-sockaddr v0.0.3-rfctest
 
-replace github.com/hashicorp/memberlist => github.com/cwon2/memberlist v0.0.2-rfctest
+// replace github.com/hashicorp/memberlist => github.com/cwon2/memberlist v0.0.3-rfctest
 
 require (
 	cloud.google.com/go/storage v1.41.0
 	github.com/bmatcuk/doublestar v1.1.3
 	github.com/buger/jsonparser v1.1.1
+	// github.com/hashicorp/memberlist v0.5.1
+	github.com/cwon2/memberlist v0.0.3-rfctest
 	github.com/danaugrs/go-tsne v0.0.0-20200708172100-6b7d1d577fd3
 	github.com/davecgh/go-spew v1.1.1
 	github.com/docker/go-connections v0.5.0
@@ -22,7 +24,6 @@ require (
 	github.com/go-openapi/validate v0.21.0
 	github.com/golang-jwt/jwt/v4 v4.5.0
 	github.com/google/uuid v1.6.0
-	github.com/hashicorp/memberlist v0.5.1
 	github.com/jessevdk/go-flags v1.4.0
 	github.com/minio/minio-go/v7 v7.0.71
 	github.com/nyaruka/phonenumbers v1.0.54
@@ -117,6 +118,8 @@ require (
 	github.com/coreos/go-systemd/v22 v22.5.0 // indirect
 	github.com/cpuguy83/dockercfg v0.3.1 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.4 // indirect
+	// github.com/hashicorp/go-sockaddr v1.0.0 // indirect
+	github.com/cwon2/go-sockaddr v0.0.3-rfctest // indirect
 	github.com/distribution/reference v0.5.0 // indirect
 	github.com/dlclark/regexp2 v1.10.0 // indirect
 	github.com/docker/docker v25.0.5+incompatible // indirect
@@ -144,7 +147,6 @@ require (
 	github.com/hashicorp/go-msgpack v0.5.5 // indirect
 	github.com/hashicorp/go-msgpack/v2 v2.1.1 // indirect
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
-	github.com/hashicorp/go-sockaddr v1.0.0 // indirect
 	github.com/hashicorp/golang-lru v0.5.1 // indirect
 	github.com/ikawaha/kagome-dict v1.1.0 // indirect
 	github.com/jmespath/go-jmespath v0.4.0 // indirect

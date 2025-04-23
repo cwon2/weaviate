@@ -17,7 +17,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/hashicorp/memberlist"
+	"github.com/cwon2/memberlist"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

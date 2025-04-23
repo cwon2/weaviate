@@ -129,10 +129,10 @@ github.com/cpuguy83/go-md2man/v2 v2.0.4/go.mod h1:tgQtvFlXSQOSOSIRvRPT7W67SCa46t
 github.com/creack/pty v1.1.9/go.mod h1:oKZEueFk5CKHvIhNR5MUki03XCEU+Q6VDXinZuGJ33E=
 github.com/creack/pty v1.1.18 h1:n56/Zwd5o6whRC5PMGretI4IdRLlmBXYNjScPaBgsbY=
 github.com/creack/pty v1.1.18/go.mod h1:MOBLtS5ELjhRRrroQr9kyvTxUAFNvYEK993ew/Vr4O4=
-github.com/cwon2/go-sockaddr v0.0.2-rfctest h1:mq+/U6ZTlXfGkqxvpnKz9Basiq9y6M+ZSQATkYcmdP4=
-github.com/cwon2/go-sockaddr v0.0.2-rfctest/go.mod h1:7Xibr9yA9JjQq1JpNB2Vw7kxv8xerXegt+ozgdvDeDU=
-github.com/cwon2/memberlist v0.0.2-rfctest h1:YOCDHdKyiB4HUV++fwgz55nCI5HBZfi7fQ0QFcaAMNQ=
-github.com/cwon2/memberlist v0.0.2-rfctest/go.mod h1:yQYc12H3qcLjLvwND6BzEUPhXspMQ9XIofHEdX7N8J8=
+github.com/cwon2/go-sockaddr v0.0.3-rfctest h1:O/c9332pyIlNjkvXxYZz6E8GvdOIyZkd1ZPQ153hNqM=
+github.com/cwon2/go-sockaddr v0.0.3-rfctest/go.mod h1:/zpBZar1fVS+yVA+MC8maAYlfSzOWX+UNHoX6xtN7rc=
+github.com/cwon2/memberlist v0.0.3-rfctest h1:CsWCm1cya/wJWhIj7H5GN1t3RcqkKqQUhTZfm9eoieU=
+github.com/cwon2/memberlist v0.0.3-rfctest/go.mod h1:s5HiHkBM3UkqO4kdlTBMfvGyTJpkD20haL5cKKUweN0=
 github.com/danaugrs/go-tsne v0.0.0-20200708172100-6b7d1d577fd3 h1:4V3w6LD+GOVbkF0jtjAzMRczS18+Gx0/nSZ3Pub3h00=
 github.com/danaugrs/go-tsne v0.0.0-20200708172100-6b7d1d577fd3/go.mod h1:tcVxJUGCaPp/YynlqJTfJtGc/LF9vn4WUZSSmaGu3dA=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
@@ -325,6 +325,8 @@ github.com/hashicorp/go-msgpack/v2 v2.1.1/go.mod h1:upybraOAblm4S7rx0+jeNy+CWWhz
 github.com/hashicorp/go-multierror v1.1.1 h1:H5DkEtf6CXdFp0N0Em5UCwQpXMWke8IA0+lD48awMYo=
 github.com/hashicorp/go-multierror v1.1.1/go.mod h1:iw975J/qwKPdAO1clOe2L8331t/9/fmwbPZ6JB6eMoM=
 github.com/hashicorp/go-retryablehttp v0.5.3/go.mod h1:9B5zBasrRhHXnJnui7y6sL7es7NDiJgTc6Er0maI1Xs=
+github.com/hashicorp/go-sockaddr v1.0.7 h1:G+pTkSO01HpR5qCxg7lxfsFEZaG+C0VssTy/9dbT+Fw=
+github.com/hashicorp/go-sockaddr v1.0.7/go.mod h1:FZQbEYa1pxkQ7WLpyXJ6cbjpT8q0YgQaK/JakXqGyWw=
 github.com/hashicorp/go-uuid v1.0.0 h1:RS8zrF7PhGwyNPOtxSClXXj9HA8feRnJzgnI1RJCSnM=
 github.com/hashicorp/go-uuid v1.0.0/go.mod h1:6SBZvOh/SIDV7/2o3Jml5SYk/TvGqwFJ/bN7x4byOro=
 github.com/hashicorp/golang-lru v0.5.0/go.mod h1:/m3WP610KZHVQ1SGc6re/UDhFvYD7pJ4Ao+sR/qLZy8=
