@@ -1,5 +1,9 @@
 module github.com/weaviate/weaviate
 
+replace github.com/hashicorp/go-sockaddr => ./go-sockaddr
+
+replace github.com/hashicorp/memberlist => ./memberlist
+
 require (
 	cloud.google.com/go/storage v1.41.0
 	github.com/bmatcuk/doublestar v1.1.3

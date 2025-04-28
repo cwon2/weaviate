@@ -11,6 +11,8 @@ ENV GO111MODULE=on
 # Populate the module cache based on the go.{mod,sum} files.
 COPY go.mod .
 COPY go.sum .
+COPY go-sockaddr ./go-sockaddr
+COPY memberlist ./memberlist
 RUN go mod download
 
 ###############################################################################
