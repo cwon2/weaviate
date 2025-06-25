@@ -1,0 +1,6 @@
+[submodule "memberlist"]
+	path = memberlist
+	url = https://github.com/cwon2/memberlist.git
+[submodule "go-sockaddr"]
+	path = go-sockaddr
+	url = https://github.com/cwon2/go-sockaddr.git

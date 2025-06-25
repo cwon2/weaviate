@@ -1,5 +1,9 @@
 module github.com/weaviate/weaviate
 
+replace github.com/hashicorp/go-sockaddr => ./go-sockaddr
+
+replace github.com/hashicorp/memberlist => ./memberlist
+
 require (
 	cloud.google.com/go/storage v1.54.0
 	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.18.0

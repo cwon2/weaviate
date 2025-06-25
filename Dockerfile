@@ -11,6 +11,8 @@ ENV GO111MODULE=on
 # Populate the module cache based on the go.{mod,sum} files.
 COPY go.mod .
 COPY go.sum .
+COPY go-sockaddr ./go-sockaddr
+COPY memberlist ./memberlist
 RUN go mod download
 
 ###############################################################################
@@ -28,10 +30,14 @@ ENV CGO_ENABLED=$CGO_ENABLED
 COPY . .
 RUN GOOS=linux GOARCH=$TARGETARCH go build $EXTRA_BUILD_ARGS \
       -ldflags '-w -extldflags "-static" \
-      -X github.com/weaviate/weaviate/usecases/build.Branch='"$GIT_BRANCH"' \
-      -X github.com/weaviate/weaviate/usecases/build.Revision='"$GIT_REVISION"' \
-      -X github.com/weaviate/weaviate/usecases/build.BuildUser='"$BUILD_USER"' \
-      -X github.com/weaviate/weaviate/usecases/build.BuildDate='"$BUILD_DATE"'' \
+#      -X github.com/weaviate/weaviate/usecases/build.Branch='"$GIT_BRANCH"' \
+#      -X github.com/weaviate/weaviate/usecases/build.Revision='"$GIT_REVISION"' \
+#      -X github.com/weaviate/weaviate/usecases/build.BuildUser='"$BUILD_USER"' \
+#      -X github.com/weaviate/weaviate/usecases/build.BuildDate='"$BUILD_DATE"'' \
+      -X github.com/cwon2/weaviate/usecases/build.Branch='"$GIT_BRANCH"' \
+      -X github.com/cwon2/weaviate/usecases/build.Revision='"$GIT_REVISION"' \
+      -X github.com/cwon2/weaviate/usecases/build.BuildUser='"$BUILD_USER"' \
+      -X github.com/cwon2/weaviate/usecases/build.BuildDate='"$BUILD_DATE"'' \
       -o /weaviate-server ./cmd/weaviate-server
 
 ###############################################################################
