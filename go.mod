@@ -1,8 +1,10 @@
 module github.com/weaviate/weaviate
 
-replace github.com/hashicorp/go-sockaddr => ./go-sockaddr
+// replace github.com/hashicorp/go-sockaddr => ./go-sockaddr
+replace github.com/cwon2/go-sockaddr => ./go-sockaddr
 
-replace github.com/hashicorp/memberlist => ./memberlist
+// replace github.com/hashicorp/memberlist => ./memberlist
+replace github.com/cwon2/memberlist => ./memberlist
 
 require (
 	cloud.google.com/go/storage v1.54.0

@@ -21,7 +21,7 @@ For more details, read through the summary on this page or see the system [docum
 ---
 
 ## 커스텀 변경 사항
-- 내부 네트워크 용도로 `192.102.0.0/16` IP 대역을 사용할 수 있도록 허용
+- 내부 네트워크 용도로 `192.102.0.0/16`, `192.103.0.0/16` IP 대역을 사용할 수 있도록 허용
 
 ---
 
