@@ -1,10 +1,8 @@
 module github.com/weaviate/weaviate
 
-// replace github.com/hashicorp/go-sockaddr => ./go-sockaddr
-replace github.com/cwon2/go-sockaddr => ./go-sockaddr
+replace github.com/hashicorp/go-sockaddr => ./go-sockaddr
 
-// replace github.com/hashicorp/memberlist => ./memberlist
-replace github.com/cwon2/memberlist => ./memberlist
+replace github.com/hashicorp/memberlist => ./memberlist
 
 require (
 	cloud.google.com/go/storage v1.54.0
@@ -162,7 +160,7 @@ require (
 	github.com/hashicorp/go-metrics v0.5.4 // indirect
 	github.com/hashicorp/go-msgpack/v2 v2.1.2 // indirect
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
-	github.com/hashicorp/go-sockaddr v1.0.0 // indirect
+	github.com/hashicorp/go-sockaddr v1.0.7 // indirect
 	github.com/hashicorp/go-uuid v1.0.1 // indirect
 	github.com/hashicorp/golang-lru v1.0.2 // indirect
 	github.com/ikawaha/kagome-dict v1.1.0 // indirect
